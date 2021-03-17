@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1310px;
+    margin: 0 auto;
+}
+.deco::before {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.deco::after {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
