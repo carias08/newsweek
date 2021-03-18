@@ -3,7 +3,7 @@
   padding: 0;
 }
 html {
-  background-color: #bdbdbd;
+  background-color: #696969;
 }
 body {
   width: 100%;
@@ -55,6 +55,51 @@ body {
   height: 15px;
   padding: 0;
   margin-bottom: 4px;
+}
+.main-nav {
+  font-family: 'Roboto';
+  font-weight: 500;
+  width: 1230px;
+  background-color: white;
+  height: 40px;
+  position: absolute;
+  z-index: 2;
+  bottom: 10px;
+}
+.main-nav ul {
+  width: 1200px;
+  margin: 0 -13px;
+  height: 20px;
+  display: flex;
+}
+.main-nav ul li {
+  padding: 0 18.5px;
+  border-left: 0.5px solid #cfcfcf;
+}
+.main-nav ul li a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.main-nav form input[type="search"] {
+  width: 80px;
+  height: 30px;
+  border: none;
+}
+.main-nav form button {
+  padding: 0;
+  height: 30px;
+  border: none;
+}
+.main-nav::after {
+  content: "";
+  display: inline;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border-top: 20px solid transparent;
+  border-left: 10px solid white;
+  border-bottom: 20px solid transparent;
 }
 .deco::before {
   content: "";
