@@ -5,10 +5,24 @@
     margin: 0;
     padding: 0;
 }
+html {
+    background-color:#F4F5F6;
+}
 
-body {
-    width: 1310px;
-    margin: 0 auto;
+.logo-container {
+    background-color: extract(@colors, 1);
+    color: white;
+    width: 12
+    
+    24px;
+    #date {
+        font-family: extract(@fonts, 3), sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    svg {
+        fill: white;
+    }
 }
 
 .deco::before {
@@ -30,3 +44,13 @@ body {
     left: 0;
     right: 0;
 }
+
+
+// media queries 
+
+// @media (max-width: 1024px) {
+//     .logo-container {
+//         width: 1024px;
+//         margin-left: 0;
+//     }
+// }
