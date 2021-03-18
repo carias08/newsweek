@@ -1,5 +1,5 @@
 @fonts: 'Arial', 'Helvetica', 'Roboto', 'Newsreader';
-@colors:  #f72210, #FFFFFF, #FEE400, #818181;
+@colors:  #f72210, #FFFFFF, #FEE400, #818181, #F4F5F6;
 
 * {
     margin: 0;
@@ -7,14 +7,15 @@
 }
 
 html {
-    background-color:#696969;
+    background-color: #F4F5F6;
 }
 
 body {
     width: 100%;
-    background-color: #F4F5F6;
+    background-color: white;
 }
 
+// LOGO  
 
 .logo-container {
     background-color: extract(@colors, 1);
@@ -87,6 +88,9 @@ body {
                 color: black;
                 text-align: center;
             }
+            a:hover {
+                color: extract(@colors, 1)
+            }
         }
     } 
     form {
@@ -116,6 +120,30 @@ body {
 }
 
 
+// TRENDING BAR 
+#trending-bar {
+    width: 1310px;
+    height: 40px;
+    // background-color: purple;
+    border-top: solid 2px extract(@colors, 5);
+    border-bottom: solid 2px extract(@colors, 5);
+    ul {
+        list-style-type: none;
+        li {
+            display: inline;
+            font-size: 16px;
+            font-weight: 500;
+            a {
+                font-family: extract(@fonts, 3);
+                color: extract(@colors, 4);
+                text-transform: uppercase;
+            }
+            a:hover {
+                color: extract(@colors, 1)
+            }
+        } 
+    }
+}
 
 
 
