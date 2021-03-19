@@ -180,7 +180,6 @@ body {
             }
         }
         #middle-column {
-            // background-color: purple;
             width: 600px;
             h4 {
                 font-size: 20px;
@@ -191,9 +190,55 @@ body {
                 color: #3b3b3b;
                 font-family: Arial, Helvetica, sans-serif;
             }
+            .small-news {
+                display: flex;
+                padding: 5px;
+                img {
+                    width:80px; 
+                    height:80px; 
+                    object-fit:cover;
+                }
+                .small-news-text {
+                    padding-left: 5px;
+                    h4 {
+                        font-size: 15px;
+                    } p {
+                        font-size: 12px;
+                        color: #3b3b3b;
+                    }
+                }
+            }
+            .my-turn-title, .culture-travel-title {
+                text-transform: uppercase;
+                color: rgb(122, 122, 122);
+                font-family: extract(@fonts, 3);
+                font-size: 14px;
+                padding-top: 10px;
+            }
+            .my-turn, .culture-travel {
+                display: flex;
+                justify-content: space-between;
+                width: 440px;
+                height: 180px;
+                .my-turn-divs, .culture-travel-divs {
+                    img {
+                        width:120px;
+                        height:120px;
+                        object-fit:cover;
+                    } p {
+                        padding-top: 5px;
+                        width: 120px;
+                        color: rgb(136, 136, 136);
+                        font-size: 11px;
+                        font-family: extract(@fonts, 3);
+                        font-weight: 500;
+                    }
+                }
+            }
         }
     } 
 }
+
 
 // ------ 
 

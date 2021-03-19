@@ -158,4 +158,62 @@ body {
 .main-container .row #featured p {
   width: 340px;
   font-size: 15px;
+  color: #3b3b3b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-container .row #middle-column {
+  width: 600px;
+}
+.main-container .row #middle-column h4 {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.main-container .row #middle-column p {
+  font-size: 15px;
+  color: #3b3b3b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-container .row #middle-column .small-news {
+  display: flex;
+  padding: 5px;
+}
+.main-container .row #middle-column .small-news img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.main-container .row #middle-column .small-news .small-news-text {
+  padding-left: 5px;
+}
+.main-container .row #middle-column .small-news .small-news-text h4 {
+  font-size: 15px;
+}
+.main-container .row #middle-column .small-news .small-news-text p {
+  font-size: 12px;
+  color: #3b3b3b;
+}
+.main-container .row #middle-column .my-turn-title {
+  text-transform: uppercase;
+  color: #888888;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.main-container .row #middle-column .my-turn {
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+  height: 180px;
+}
+.main-container .row #middle-column .my-turn .my-turn-divs img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.main-container .row #middle-column .my-turn .my-turn-divs p {
+  padding-top: 5px;
+  width: 120px;
+  color: #888888;
+  font-size: 11px;
+  font-family: 'Roboto';
+  font-weight: 500;
 }
