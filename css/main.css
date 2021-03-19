@@ -192,24 +192,33 @@ body {
   font-size: 12px;
   color: #3b3b3b;
 }
-.main-container .row #middle-column .my-turn-title {
+.main-container .row #middle-column .my-turn-title,
+.main-container .row #middle-column .culture-travel-title {
   text-transform: uppercase;
-  color: #888888;
+  color: #7a7a7a;
   font-family: 'Roboto';
   font-size: 14px;
+  padding-top: 10px;
 }
-.main-container .row #middle-column .my-turn {
+.main-container .row #middle-column .my-turn,
+.main-container .row #middle-column .culture-travel {
   display: flex;
   justify-content: space-between;
   width: 440px;
   height: 180px;
 }
-.main-container .row #middle-column .my-turn .my-turn-divs img {
+.main-container .row #middle-column .my-turn .my-turn-divs img,
+.main-container .row #middle-column .culture-travel .my-turn-divs img,
+.main-container .row #middle-column .my-turn .culture-travel-divs img,
+.main-container .row #middle-column .culture-travel .culture-travel-divs img {
   width: 120px;
   height: 120px;
   object-fit: cover;
 }
-.main-container .row #middle-column .my-turn .my-turn-divs p {
+.main-container .row #middle-column .my-turn .my-turn-divs p,
+.main-container .row #middle-column .culture-travel .my-turn-divs p,
+.main-container .row #middle-column .my-turn .culture-travel-divs p,
+.main-container .row #middle-column .culture-travel .culture-travel-divs p {
   padding-top: 5px;
   width: 120px;
   color: #888888;
